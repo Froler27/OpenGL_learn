@@ -31,4 +31,5 @@ add_executable(${PROJECT_NAME}
 #此处添加依赖库
 target_link_libraries(${PROJECT_NAME}
 	${GLFW_LIB}
+	opengl32.lib
 )
